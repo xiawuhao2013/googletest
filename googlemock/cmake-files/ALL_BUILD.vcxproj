@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7A769624-211D-3E4D-AB7D-AA8302D27971}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Private\googletest\googlemock\include;D:\Private\googletest\googlemock;D:\Private\googletest\googletest\include;D:\Private\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Private\googletest\googlemock\include;D:\Private\googletest\googlemock;D:\Private\googletest\googletest\include;D:\Private\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Private\googletest\googlemock\include;D:\Private\googletest\googlemock;D:\Private\googletest\googletest\include;D:\Private\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Private\googletest\googlemock\include;D:\Private\googletest\googlemock;D:\Private\googletest\googletest\include;D:\Private\googletest\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Private\googletest\googlemock\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Private/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\Private\cmake-3.15.0-rc3-win64-x64\bin\cmake.exe -SD:/Private/googletest/googlemock -BD:/Private/googletest/googlemock/cmake-files --check-stamp-file D:/Private/googletest/googlemock/cmake-files/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindThreads.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCXXCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeRCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Private\googletest\googlemock\cmake-files\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Private/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\Private\cmake-3.15.0-rc3-win64-x64\bin\cmake.exe -SD:/Private/googletest/googlemock -BD:/Private/googletest/googlemock/cmake-files --check-stamp-file D:/Private/googletest/googlemock/cmake-files/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindThreads.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCXXCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeRCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Private\googletest\googlemock\cmake-files\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Private/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\Private\cmake-3.15.0-rc3-win64-x64\bin\cmake.exe -SD:/Private/googletest/googlemock -BD:/Private/googletest/googlemock/cmake-files --check-stamp-file D:/Private/googletest/googlemock/cmake-files/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindThreads.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCXXCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeRCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Private\googletest\googlemock\cmake-files\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Private/googletest/googlemock/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\Private\cmake-3.15.0-rc3-win64-x64\bin\cmake.exe -SD:/Private/googletest/googlemock -BD:/Private/googletest/googlemock/cmake-files --check-stamp-file D:/Private/googletest/googlemock/cmake-files/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\FindThreads.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Private\cmake-3.15.0-rc3-win64-x64\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeCXXCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeRCCompiler.cmake;D:\Private\googletest\googlemock\cmake-files\CMakeFiles\3.15.0-rc3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Private\googletest\googlemock\cmake-files\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Private\googletest\googlemock\cmake-files\ZERO_CHECK.vcxproj">
+      <Project>{81D48E5E-A84E-3519-9293-7C6808A0D45B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Private\googletest\googlemock\cmake-files\gmock.vcxproj">
+      <Project>{6085B087-AF85-38AC-A572-EE9BF5DFB8E0}</Project>
+      <Name>gmock</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Private\googletest\googlemock\cmake-files\gmock_main.vcxproj">
+      <Project>{35D74D93-D1C3-36D6-80A5-AAAE2C4A646A}</Project>
+      <Name>gmock_main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Private\googletest\googlemock\cmake-files\gtest\gtest.vcxproj">
+      <Project>{7389FCCA-B264-3E0D-9A4C-E607ABF8734B}</Project>
+      <Name>gtest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Private\googletest\googlemock\cmake-files\gtest\gtest_main.vcxproj">
+      <Project>{45AC60D4-68CB-3CEF-BF8D-4DA476C03768}</Project>
+      <Name>gtest_main</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
